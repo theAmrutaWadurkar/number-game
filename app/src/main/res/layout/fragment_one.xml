@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3E3A3A"
+    tools:context=".fragmentOne">
+
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        >!-->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="10dp"
+            android:layout_weight="3">
+            <TextView
+                android:id="@+id/Discriptive_answer_txt"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="@dimen/CalculatorTextSize"
+                />
+        </ScrollView>
+
+   <!-- </LinearLayout>!-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/reciever"
+            android:background="@drawable/curveroundshape"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="@dimen/CalculatorTextSize"
+            android:imeOptions="actionDone"
+            android:gravity="center"
+            android:hint="@string/EnterNumber"
+            android:textColor="@color/white"
+            android:textColorHint="@color/light"
+            android:autofillHints="" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="4"
+            tools:ignore="NestedWeights">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/buttonARM"
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/numbersgameTextSize"
+                    android:textColor="#ED3C3C"
+                    android:background="@null"
+                    android:text="@string/Arm"/>
+                <Button
+                    android:id="@+id/buttonPrime"
+                    style="?android:attr/buttonBarStyle"
+                    android:textSize="@dimen/numbersgameTextSize"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="#ED3C3C"
+                    android:text="@string/prime"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/buttonPali"
+                    android:layout_width="0dp"
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/numbersgameTextSize"
+                    android:textColor="#ED3C3C"
+                    android:background="@null"
+                    android:text="@string/Palindrome"/>
+                <Button
+                    android:id="@+id/buttonPerfect"
+                    style="?android:attr/buttonBarStyle"
+                    android:textSize="@dimen/numbersgameTextSize"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="#ED3C3C"
+                    android:text="@string/Perfect"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/buttonfibo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    style="?android:attr/buttonBarStyle"
+                    android:textSize="@dimen/numbersgameTextSize"
+                    android:textColor="#ED3C3C"
+                    android:text="@string/Fibonacci"/>
+
+                <Button
+                    android:id="@+id/buttonfacto"
+                    android:layout_width="0dp"
+                    android:background="@null"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/factorial"
+                    style="?android:attr/buttonBarStyle"
+                    android:textColor="#ED3C3C"
+                    android:textSize="@dimen/numbersgameTextSize" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/buttonSquare"                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    style="?android:attr/buttonBarStyle"
+                    android:textSize="@dimen/numbersgameTextSize"
+                    android:textColor="#ED3C3C"
+                    android:text="@string/Square"/>
+
+                <Button
+                    android:id="@+id/buttoncube"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    style="?android:attr/buttonBarStyle"
+                    android:text="@string/Cube"
+                    android:textColor="#ED3C3C"
+                    android:background="@null"
+                    android:textSize="@dimen/numbersgameTextSize" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/buttonSquareRoot"
+                    style="?android:attr/buttonBarStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/numbersgameTextSize"
+                    android:textColor="#ED3C3C"
+                    android:background="@null"
+                    android:text="@string/SqureRoot"/>
+                <Button
+                    android:id="@+id/buttonCubeRoot"
+                    style="?android:attr/buttonBarStyle"
+                    android:textSize="@dimen/numbersgameTextSize"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="#ED3C3C"
+                    android:text="@string/CubeRoot"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">NumberGame</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Welcome to Numbers Game Application
+        This Application is Developed By
+        Developer: Faiyaz Khan
+        Co-Developer: Amruta Wadurkar
+        On 13-August-2022</string>
+    <string name="Arm">Armstrong</string>
+    <string name="prime">Prime</string>
+    <string name="Palindrome">Palindrome</string>
+    <string name="Perfect">Perfect</string>
+    <string name="Fibonacci">Fibonacci</string>
+    <string name="factorial">Factorial</string>
+    <string name="Square">Square</string>
+    <string name="CubeRoot">CubeRoot</string>
+    <string name="Cube">Cube</string>
+    <string name="SqureRoot">SquareRoot</string>
+    <string name="EnterNumber">Enter Number</string>
+    <string name="D_mode">Dark Mode</string>
+    <string name="N_mode">Light Mode</string>
+    <!-- About section    !-->
+    <string name="About">About</string>
+    <string name="Faiyaz_Khan">FAIYAZ KHAN  \u25A1 [IT Engineer]</string>
+    <string name="Faiyaz_Khan_post">Application Developer</string>
+    <string name="Faiyaz_Khan_contribution">Design / Android Code / Calculator Code</string>
+    <string name="contribution">Contribution</string>
+    <string name="Amruta">Amruta Wadurkar</string>
+    <string name="Amruta_post">Application Co-Developer</string>
+    <string name="Amruta_contribution">NumbersGame Backend Code/ Idea NumbersGame</string>
+    
+    <string name="navigation_open">Open Navigation Drawer</string>
+    <string name="navigation_close">Close Navigation Drawer</string>
+
+</resources>

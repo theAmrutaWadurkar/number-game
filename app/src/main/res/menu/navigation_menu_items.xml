@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/About"
+        android:title="@string/About"
+        android:icon="@drawable/info"
+        />
+    <item
+        android:id="@+id/Mode"
+        android:title="@string/N_mode"
+        android:icon="@drawable/day_and_night"
+        />
+</menu>
